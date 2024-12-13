@@ -1,5 +1,5 @@
 # Ex.08 Design of Interactive Image Gallery
-# Date:
+# Date:13/12/2024
 # AIM:
 To design a web application for an inteactive image gallery with minimum five images.
 
@@ -85,13 +85,11 @@ Publish the website in the given URL.
   color: white;
   cursor: pointer;
 }
-
   </style>
   <script>
     function openModal(image) {
   const modal = document.getElementById('imageModal');
   const modalImg = document.getElementById('modalImage');
-  
   modal.style.display = "flex";
   modalImg.src = image.src;
 }
@@ -102,7 +100,6 @@ function closeModal() {
   </script>
 </head>
 <body background="https://sac-ace.ca/wp-content/uploads/layerslider/LayerSlider-5-responsive-demo-slider/bg.jpg" style="background-repeat: no-repeat; ">
-
  <h1 align="center" style="font-family :cursive ;color: blue;">Interactive Image Gallery</h1>
   <div class="gallery">
     <br><br><br>
@@ -118,7 +115,6 @@ function closeModal() {
     <span class="close">&times;</span>
     <img class="modal-content" id="modalImage">
   </div>
-
 </body>
 </html>
 ```
