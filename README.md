@@ -120,7 +120,7 @@ function closeModal() {
 ```
 # OUTPUT:
 ![alt text](image.png)
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/7c707b55-ebec-42ed-a3db-0bc30dfcee1d)
 
 # RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
